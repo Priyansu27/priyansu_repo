@@ -50,12 +50,7 @@
         '@': path.resolve(__dirname, './src'),
       },
     },
-    // vite.config.js
-export default {
-  build: {
-    outDir: 'dist'
-  }
-},
+    
     build: {
       target: 'esnext',
       outDir: 'build',
